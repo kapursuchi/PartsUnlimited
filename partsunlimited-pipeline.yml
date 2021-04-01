@@ -43,7 +43,7 @@ stages:
       - task: PythonScript@0
         inputs:
           scriptSource: 'inline'
-          script: 'print("In second stage, job two")'
+          script: 'print(In second stage, job two")'
     - job: third
       steps:
       - task: PythonScript@0
